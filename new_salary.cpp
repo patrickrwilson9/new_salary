@@ -1,6 +1,6 @@
 /*****************************************************************************
  *AUTHOR  	 : Patrick Wilson
- *PROJECT	 : Input & Output - New Salary
+ *PROJECT #	 : Input & Output - New Salary
  *DATE		 : 10/3/18
 ******************************************************************************/
 
@@ -36,7 +36,7 @@ int main()
 	 * LAB_NAME   : Titles of the Lab
 	 *************************************************************************/
 	const char PROGRAMMER[] = "Patrick Wilson";
-	const int  LAB_NUM      = 1;
+	const int  LAB_NUM      = 2;
 	const char LAB_NAME[]   = "Input & Output - New Salary";
 	const int  NAME_SIZE 	= 25;
 	const int  RETRO_MONTHS = 6;

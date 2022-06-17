@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "c:/Users/Patrick/projects/salary",
-      "program": "c:/Users/Patrick/projects/salary/build/Debug/outDebug",
+      "cwd": "c:/Users/Patrick/projects/new_salary",
+      "program": "c:/Users/Patrick/projects/new_salary/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
