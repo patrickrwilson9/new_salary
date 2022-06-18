@@ -42,7 +42,7 @@ int main()
 	const int  RETRO_MONTHS = 6;
 	const int  INPUT_WIDTH  = 29;
 
-	const int TOTAL_TESTS 	= 5;
+	const int TOTAL_TESTS 	= 10;
 	
 	int CaseCount;			// IN & CALC 		- the # if test cases (1 to 5)
 
@@ -52,9 +52,7 @@ int main()
                             //				      expressed in decimal form.
 	float newSalary;        // CALC & OUT       - The new annual salary.
 	float monthlySalary;    // CALC & OUT       - The new monthly salary.
-	float retroPay;         // CALC & OUT       - Specified retroactive pay.
-
-	bool repeat {true};		
+	float retroPay;         // CALC & OUT       - Specified retroactive pay.		
 
 
     //OUTPUT - Heading
@@ -76,14 +74,14 @@ int main()
      * What is your pay increase?   .10
 	 *************************************************************************/
 
-	for (CaseCount = 1; CaseCount <= TOTAL_TESTS; CaseCount = CaseCount + 1)
-	{
-		cout << left;
-		cout << "TEST CASE # " << CaseCount << ":" << endl;
-		cout << right;
-
 		// INPUT - name, current salary, pay increase
 
+	for (CaseCount = 1; CaseCount <= TOTAL_TESTS; CaseCount = CaseCount + 1)
+	{
+				cout << left;
+		cout << "TEST CASE #" << CaseCount << ":"	<< endl;
+		cout << right;
+		
 		cout << left;
 		cout << setw(INPUT_WIDTH) << "What is your name? ";
 		cin.getline(name, NAME_SIZE);
@@ -128,8 +126,10 @@ int main()
 		cout << setprecision(2)	               << fixed;
 		cout << setw(10)     << newSalary;
 		cout << setw(19)	 << monthlySalary  << setw(20)   << retroPay;
-		cout.unsetf(ios::fixed);
-	}
+		cout << endl << endl << endl;	
+		cin.ignore(10000,'\n');
+		cout.unsetf(ios::fixed);		
+	} //for (CaseCount = 1; CaseCount <= TOTAL_TESTS; CaseCount = CaseCount + 1)
 
 	return 0;
 }
