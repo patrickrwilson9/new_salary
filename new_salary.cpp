@@ -79,7 +79,7 @@ int main()
 	for (CaseCount = 1; CaseCount <= TOTAL_TESTS; CaseCount = CaseCount + 1)
 	{
 				cout << left;
-		cout << "TEST CASE #" << CaseCount << ":"	<< endl;
+		cout << "TEST CASE #" << CaseCount << ":" << endl;
 		cout << right;
 		
 		cout << left;
