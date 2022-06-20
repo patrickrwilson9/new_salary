@@ -68,10 +68,10 @@ int main()
 	/*************************************************************************
 	 * INPUT - Reads in the name of the user, user's current salary, and the
 	 * user's pay increase as follows.
-     *
+     	 *
 	 * What is your name?           Patrick Wilson
-     * What is your current salary? 50000
-     * What is your pay increase?   .10
+     	 * What is your current salary? 50000
+     	 * What is your pay increase?   .10
 	 *************************************************************************/
 
 		// INPUT - name, current salary, pay increase
