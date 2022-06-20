@@ -55,7 +55,7 @@ int main()
 	float retroPay;         // CALC & OUT       - Specified retroactive pay.		
 
 
-    //OUTPUT - Heading
+    	//OUTPUT - Heading
 
 	cout << left;
 	cout << "**************************************************\n";
@@ -74,7 +74,7 @@ int main()
      	 * What is your pay increase?   .10
 	 *************************************************************************/
 
-		// INPUT - name, current salary, pay increase
+	// INPUT - name, current salary, pay increase
 
 	for (CaseCount = 1; CaseCount <= TOTAL_TESTS; CaseCount = CaseCount + 1)
 	{
